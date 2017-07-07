@@ -1,0 +1,12 @@
+{
+  "strategy": {
+    "type": "Source",
+    "sourceStrategy": {
+      "from": {
+        "kind": "ImageStreamTag",bas
+        "name": "builder-image:latest" 
+      },
+      "forcePull": true 
+    }
+  }
+}
